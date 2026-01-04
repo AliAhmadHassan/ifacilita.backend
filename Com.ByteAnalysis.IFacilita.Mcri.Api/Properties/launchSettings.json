@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Start": {
+      "commandName": "Project",
+      "ErrorString": "Invalid property identifier character: <. Path 'iisSettings.iisExpress', line 7, position 0."
+    }
+  }
+}

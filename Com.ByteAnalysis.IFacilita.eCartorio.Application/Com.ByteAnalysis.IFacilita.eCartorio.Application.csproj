@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Enums\" />
+    <Folder Include="Validations\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Com.ByteAnalysis.IFacilita.Common\Com.ByteAnalysis.IFacilita.Common.csproj" />
+    <ProjectReference Include="..\Com.ByteAnalysis.IFacilita.eCartorio.Domain\Com.ByteAnalysis.IFacilita.eCartorio.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

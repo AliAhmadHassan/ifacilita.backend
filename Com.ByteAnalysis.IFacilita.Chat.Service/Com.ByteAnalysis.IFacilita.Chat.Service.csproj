@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Com.ByteAnalysis.IFacilita.Chat.Model\Com.ByteAnalysis.IFacilita.Chat.Model.csproj" />
+    <ProjectReference Include="..\Com.ByteAnalysis.IFacilita.Chat.Repository\Com.ByteAnalysis.IFacilita.Chat.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

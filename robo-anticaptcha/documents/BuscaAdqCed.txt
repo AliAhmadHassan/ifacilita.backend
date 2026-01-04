@@ -1,0 +1,362 @@
+<form action="/cgi-bin/itbi2simulacao_cgi.exe/GeraPreProtocolo" method="POST" name="frmConfGeracao" id="formConfGeracao" onsubmit="return ValidaForm(this)">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+          <tbody><tr>
+              <th colspan="5">ADQUIRENTE</th>
+          </tr>
+          <tr>
+              <td colspan="5">
+                Documento (CPF/CNPJ): <b>40423790013</b>
+              </td>
+          </tr>
+          <tr>
+              <td align="center" colspan="5">&nbsp;</td>
+          </tr>		
+          <tr>
+              <td colspan="2">Nome:<br>
+                <input type="text" size="40" maxlength="70" name="edtNomeAdq_15092020_180714" onchange="trim(document.frmConfGeracao.edtNomeAdq_15092020_180714)" autocomplete="NovoTexto1">
+              </td>
+              <td colspan="3">&nbsp;<br>&nbsp;
+                <select name="cmbTipoAdq" size="1">
+                  <option value=" ">único adquirente</option>
+                  <option value="1">e seu marido/sua mulher</option>
+                  <option value="2">e outro</option>
+                  <option value="3">e outra</option>
+                  <option value="4">e outros</option>
+                </select>
+              </td>
+          </tr>
+          <tr>
+              <td colspan="2">Endereço:<br>  
+                <input type="text" size="40" maxlength="45" name="edtEndAdq" id="edtEndAdq" value="" onchange="formata(document.frmConfGeracao.edtEndAdq)">
+              </td>
+              <td>&nbsp;&nbsp;Número:<br>  
+                  &nbsp;&nbsp;<input type="text" size="7" maxlength="5" name="edtNumAdq" id="edtNumAdq" value="" onchange="formata(document.frmConfGeracao.edtNumAdq)">
+              </td>
+              <td colspan="2">&nbsp;&nbsp;Complemento*:<br>  
+                  &nbsp;&nbsp;<input type="text" size="10" maxlength="30" name="edtCompEndAdq" id="edtCompEndAdq" value="" onchange="formata(document.frmConfGeracao.edtCompEndAdq)">
+              </td>
+          </tr>
+          <tr>
+              <td colspan="2">Bairro:<br>  
+                <input type="text" size="30" maxlength="30" name="edtBairroAdq" id="edtBairroAdq" value="" onchange="formata(document.frmConfGeracao.edtBairroAdq)">
+              </td>
+              <td>&nbsp;&nbsp;CEP:<br>  
+                  &nbsp;&nbsp;<input type="text" size="8" maxlength="8" name="edtCepAdq" id="edtCepAdq" value="" onchange="formata(document.frmConfGeracao.edtCepAdq)">
+              </td>  	
+              <td>&nbsp;&nbsp;Cidade:<br>  
+                  &nbsp;&nbsp;<input type="text" size="20" maxlength="30" name="edtCidadeAdq" id="edtCidadeAdq" value="" onchange="formata(document.frmConfGeracao.edtCidadeAdq)">
+              </td>
+              <td>&nbsp;&nbsp;UF:<br>  
+                  &nbsp;&nbsp;<select name="cmbUfAdq">
+                  <option value="AC">AC</option>
+                  <option value="AL">AL</option>
+                  <option value="AM">AM</option>
+                  <option value="AP">AP</option>
+                  <option value="BA">BA</option>
+                  <option value="CE">CE</option>
+                  <option value="DF">DF</option>
+                  <option value="ES">ES</option>
+                  <option value="FN">FN</option>
+                  <option value="GO">GO</option>
+                  <option value="MA">MA</option>
+                  <option value="MG">MG</option>
+                  <option value="MS">MS</option>
+                  <option value="MT">MT</option>
+                  <option value="PA">PA</option>
+                  <option value="PB">PB</option>
+                  <option value="PE">PE</option>
+                  <option value="PI">PI</option>
+                  <option value="PR">PR</option>
+                  <option value="RJ" selected="">RJ</option>
+                  <option value="RN">RN</option>
+                  <option value="RO">RO</option>
+                  <option value="RR">RR</option>
+                  <option value="RS">RS</option>
+                  <option value="SC">SC</option>
+                  <option value="SE">SE</option>
+                  <option value="SP">SP</option>
+                  <option value="TO">TO</option>
+                </select>
+              </td>
+          </tr>
+          <tr>
+              <td colspan="2">
+                Email:<br>
+                <input type="text" size="30" maxlength="40" name="edtEmailAdq" id="edtEmailAdq" value="" onchange="formataEmail(document.frmConfGeracao.edtEmailAdq)">                            
+              </td>
+              <td colspan="3">
+                &nbsp;&nbsp;Telefone*:<br>
+                &nbsp;&nbsp;<input type="text" size="4" maxlength="3" name="edtDDDAdq" id="edtDDDAdq" value="" onchange="trim(document.frmConfGeracao.edtDDDAdq)"> 
+                <input type="text" size="10" maxlength="9" name="edtTelefoneAdq" id="edtTelefoneAdq" value="" onchange="trim(document.frmConfGeracao.edtTelefoneAdq)"> 
+              </td>
+          </tr>
+          <tr>
+              <td align="center" colspan="5">&nbsp;</td>
+          </tr>
+          <tr>
+              <th colspan="5">TRANSMITENTE</th>
+          </tr>
+          <tr>
+              <td colspan="5">
+                Documento (CPF/CNPJ): <b>97448577069</b>
+              </td>
+          </tr>	
+          <tr>
+              <td align="center" colspan="5">&nbsp;</td>
+          </tr>					
+          <tr>
+              <td colspan="2">Nome:<br>
+              <input type="text" size="40" maxlength="70" name="edtNomeCed_15092020_180714" onchange="trim(document.frmConfGeracao.edtNomeCed_15092020_180714)" autocomplete="NovoTexto2">
+              </td>
+              <td colspan="3">&nbsp;<br>						
+                  &nbsp;&nbsp;<select name="cmbTipoTrans" size="1">
+                  <option value=" ">único transmitente</option>
+                  <option value="1">e seu marido/sua mulher</option>
+                  <option value="2">e outro</option>
+                  <option value="3">e outra</option>
+                  <option value="4">e outros</option>
+                </select>
+              </td>
+          </tr>
+          <tr>
+              <td align="center" colspan="5">&nbsp;</td>
+          </tr>		
+          <tr>
+              <th colspan="5">IMÓVEL</th>
+          </tr>		
+		<tr>		          
+              <td align="center" colspan="5">(Os dados aqui solicitados são de preenchimento obrigatório e serão impressos na guia de pagamento.)</td>
+		</tr>		                        
+          <tr>
+              <td align="center" colspan="5">&nbsp;</td>
+          </tr>
+          <tr>
+<!--    
+              <td colspan="2">
+             No. de Suítes:
+                 <select name="cmbSuites" size="1">
+                    <option selected>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                 </select>
+            
+              </td>
+-->     
+    		   <td colspan="2">
+<!--                  <td width="20%" nowrap> -->
+                 Quartos:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  			 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  			 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  			 &nbsp;
+ 	
+                 <select name="cmbQuartos" size="1">
+                    <option value=""></option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                 </select> 
+              </td>
+
+                  <td width="20%" nowrap=""> 
+<!--			<td colspan="2" class="TDDireita"> -->
+                 Banheiros exceto de empregada:&nbsp;&nbsp;&nbsp;&nbsp;
+                 <select name="cmbBanheiros" size="1">
+                    <option value=""></option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                 </select> <a href="#" title="(Quantidade de banheiros incluindo 
+lavabos, banheiros sociais e de suítes)"> <img src="/docs/cit/itbi2/ic-tip.png" border="0"></a>
+              </td>            
+		</tr>
+		<tr>
+             <td colspan="2">
+             Quarto de Empregada:                
+              <input type="radio" name="chbQEmpregada" value="S"> Sim
+			  			<input type="radio" name="chbQEmpregada" value="N"> Não
+             </td>
+              
+             <td width="20%" nowrap="">
+             Banheiro de Empregada:
+              <input type="radio" name="chbBEmpregada" value="S"> Sim
+							<input type="radio" name="chbBEmpregada" value="N"> Não                  
+             </td>
+
+             <td colspan="2" class="TDDireita">
+						 &nbsp;&nbsp;Elevador:&nbsp;&nbsp;&nbsp;&nbsp;
+              			<input type="radio" name="chbElevador" value="S"> Sim
+										<input type="radio" name="chbElevador" value="N"> Não                  
+             </td>
+	    </tr>
+		<tr>    
+             <td colspan="2">
+<!--                <input type="checkbox" name="chbPiscina" value="N"  >Piscina  -->
+             </td>
+              
+             <td width="20%" nowrap="">
+<!--                  <input type="checkbox" name="chbSauna" value="N"  >Sauna -->
+             </td>
+
+             <td colspan="2" class="TDDireita">
+<!--                  <input type="checkbox" name="chbSFestas" value="S"  >Salão de Festas -->
+             </td>
+	    </tr>
+	    <tr>	    
+		   <td colspan="2">
+		    Número de vagas na escritura:&nbsp;&nbsp;&nbsp; 
+   			  <select name="cmbVagasEscr" size="1">
+                    <option value=""></option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                 </select> <a href="#" title="(Somente vagas na escritura)"> <img src="/docs/cit/itbi2/ic-tip.png" border="0"></a>
+                 <br>
+        </td>
+
+        <td width="20%" nowrap="">
+             Varanda:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	        <input type="radio" name="chbVaranda" value="S" title="Varandas e sacadas"> Sim
+					<input type="radio" name="chbVaranda" value="N" title="Varandas e sacadas"> Não                  
+        </td>
+
+        <td colspan="2" class="TDDireita">
+              Área de Lazer: 
+                  <input type="radio" name="chbPGround" value="S"> Sim
+                  <input type="radio" name="chbPGround" value="N"> Não                 
+ 							<a href="#" title="(Playground, salão de festas, sauna ou piscina em conjunto ou isoladamente)"> <img src="/docs/cit/itbi2/ic-tip.png" border="0"></a>                  
+        </td>
+	    </tr>
+	    <tr>	    
+		   <td colspan="2">
+		    Imóvel Foreiro:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                  <input type="radio" name="chbForeiro" value="S"> Sim
+                  <input type="radio" name="chbForeiro" value="N"> Não                 
+				<a href="#" title="(Município RJ, Estado RJ, União, Marinha, etc.)"> <img src="/docs/cit/itbi2/ic-tip.png" border="0"></a>
+             </td>
+
+<!--		      <td width="20%" nowrap>Número do Pavimento: 
+                  <input type="text" size="3" maxlength="2" name="edtNumPav" value="" onChange="trim(document.frmConfGeracao.edtNumPav)">
+              </td>
+-->              
+		<td width="20%" nowrap="">
+		    Posição do Pavimento:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+   			  <select name="cmbNumPav" id="cmbNumPav" size="1"> 
+  			     <option value=""></option>               
+  			     <option>Terreo</option>
+				  <option>01 andar</option>
+                    <option>02 andar</option>
+                    <option>03 andar</option>
+                    <option>04 andar</option>
+                    <option>05 andar</option>
+                    <option>06 andar</option>
+                    <option>07 andar</option>
+                    <option>08 andar</option>
+                    <option>09 andar</option>
+                    <option>10 andar</option>
+                    <option>11 andar</option>
+                    <option>12 andar</option>
+                    <option>13 andar</option>
+                    <option>14 andar</option>
+                    <option>15 andar</option>
+                    <option>16 andar</option>
+                    <option>17 andar</option>
+                    <option>18 andar</option>
+                    <option>19 andar</option>
+                    <option>20 andar</option>
+                    <option>21 andar</option>
+                    <option>22 andar</option>
+                    <option>23 andar</option>
+                    <option>24 andar</option>
+                    <option>25 andar</option>
+                    <option>26 andar</option>
+                    <option>27 andar</option>
+                    <option>28 andar</option>
+                    <option>29 andar</option>
+                    <option>30 andar</option>
+                    <option>31 andar</option>
+                    <option>32 andar</option>
+                    <option>33 andar</option>
+                    <option>34 andar</option>
+                    <option>35 andar</option>
+                    <option>36 andar</option>
+                    <option>37 andar</option>
+                    <option>38 andar</option>
+                    <option>39 andar</option>
+                    <option>40 andar</option>
+                    <option>41 andar</option>
+                    <option>42 andar</option>
+                    <option>43 andar</option>
+                    <option>44 andar</option>
+                    <option>45 andar</option>
+                    <option>46 andar</option>
+                    <option>47 andar</option>
+                    <option>48 andar</option>
+                    <option>49 andar</option>
+                    <option>50 andar</option>
+                    <option>51 andar</option>
+                    <option>52 andar</option>
+                    <option>53 andar</option>
+                    <option>54 andar</option>
+                    <option>55 andar</option>
+                    <option>56 andar</option>
+                    <option>57 andar</option>
+                    <option>58 andar</option>
+                    <option>59 andar</option>
+                    <option>60 andar</option>
+                 </select> <a href="#" title="(Marcar como térreo se o apto. se situar no nível da rua)"><img src="/docs/cit/itbi2/ic-tip.png" border="0"></a>
+		</td>
+	    </tr>          
+          <tr>
+              <td align="center" colspan="5">&nbsp;</td>
+          </tr>
+          <tr>
+              <td align="center" colspan="5"><hr></td>
+          </tr>
+          <tr>
+              <td>* Opcional</td>
+              <td colspan="5" class="TDDireita">
+                  <input type="reset" name="btnLimpar" value="Desfazer alterações">&nbsp;&nbsp;
+                  <input type="submit" name="btnSubmeter" id="btnSubmit" value="Confirmar">
+              </td>
+          </tr>
+      </tbody></table>
+      <input type="hidden" name="FaseGeracao" value="OK"> 
+      <input type="hidden" name="hContSeqPag" value="Ok"> 
+      <input type="hidden" name="hNumDocAdq" value="40423790013">   
+      <input type="hidden" name="hNomeAdq" value="">         
+      <input type="hidden" name="hNumDocTrans" value="97448577069"> 	
+      <input type="hidden" name="hTipoDocAdq" value="">   
+      <input type="hidden" name="hTipoDocTrans" value=""> 	
+      <input type="hidden" name="NomeAdqWS" value=""> 	      	
+      <input type="hidden" name="NomeCedWS" value=""> 	      	      	
+      <input type="hidden" name="LaudoInd" value="F"> 	  
+  </form>

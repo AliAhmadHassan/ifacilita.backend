@@ -1,0 +1,495 @@
+<table border="0" align="center">
+
+					<tbody><tr>                                                              
+					    <th class="THEsquerda"> Inscrição Imobiliária: </th>          
+					    <td><font size="2"><b>3298019-5</b></font></td>  
+					</tr>                                                             
+					<tr>                                                              
+					    <th class="THEsquerda"> Doc. Adquirente: </th>                
+					    <td><font size="2"><b>40423790013</b></font></td>  
+					</tr>                                                             
+					<tr>                                                              
+					    <th class="THEsquerda"> Adquirente Digitado: </th>                     
+ 					    <td><font size="2"><b>ASDF ASDF </b></font></td>  
+					</tr>                                                             
+					<tr>                                                              
+					    <th class="THEsquerda"> Adquirente Verificado(RFB): <!--#TXTADQWS--></th>                     
+ 					    <td><font size="2"><b></b></font></td>  
+					</tr>                                                             					
+					<tr>                                                              
+					    <th class="THEsquerda"> Doc. Transmitente: </th>              
+ 					    <td><font size="2"><b>97448577069</b></font></td>
+					</tr>                                                             
+					<tr>                                                              
+					    <th class="THEsquerda"> Transmitente Digitado: </th>                   
+ 					    <td><font size="2"><b>ASDFASD ASDFASDF </b></font></td>
+					</tr>                                                             
+					<tr>                                                              
+					    <th class="THEsquerda"> Transmitente Verificado(RFB): </th>                   
+ 					    <td><font size="2"><b></b></font></td>
+					</tr>                                                             
+					<tr>                                                              
+					    <th class="THEsquerda"> % Transferido: </th>                  
+ 					    <td><font size="2"><b>100%</b></font></td>
+					</tr>                                                             
+					<tr>                                                              
+					    <th class="THEsquerda"> Valor do ITBI: </th>                  
+ 					    <td><font size="2"><b>10.270,92</b></font></td>
+					</tr>                                                             
+					<tr>                                                              
+					    <th class="THEsquerda"> Prazo de Pagamento: </th>             
+ 					    <td><font size="2"><b>15/10/2020</b></font></td>
+					</tr>                                                             
+					<tr>                                                              
+					    <th class="THEsquerda"> Endereço do Imóvel: </th>             
+ 					    <td><font size="2"><b>AVN DAS AMERICAS, 17150 / BLC 001 SAL 0337 - RECREIO DOS BANDEIRANTES</b></font></td>
+					</tr>                                                             
+					<tr>                                                              
+					    <th class="THEsquerda"> Natureza: </th>                       
+ 					    <td><font size="2"><b>COMPRA E VENDA</b></font></td>
+					</tr>                                                             
+					<tr>                                                              
+					    <th class="THEsquerda"> Valor do Declarado: </th>             
+					    <td><font size="2"><b>120.000,00</b></font></td>
+					</tr> 
+          <tr>
+              <td align="center" colspan="5">&nbsp;</td>
+          </tr>
+          <tr>
+          
+          <td align="center" colspan="5"><hr></td>
+          </tr>
+  </tbody></table>
+
+  <table border="0" cellpadding="4" cellspacing="4">         
+    <tbody><tr>
+       <th class="TDDireita" colspan="2" style="background-color: white; horizontal-align: right;">Por favor, repita os caracteres ao lado: <img src="/docs/cit/itbi2/Temp/captcha_204847479.jpg" alt="Captcha" height="56" width="112"></th>
+       <td><input style="background-color: white; color: black; font-size: 12px;" type="text" size="5" maxlength="4" id="edtCaptchaGProt" name="edtCaptchaGProt"></td>
+    </tr>  
+    <tr>          
+    	<td align="center" colspan="5"><hr></td>
+    </tr>
+    <tr></tr>
+    <tr></tr>        
+    <tr>
+    <td></td>
+    <td class="TDDireita" valign="middle">
+		<!--- ini: ESTILO DOS BOTÕES --->
+		<style>
+		button { 
+				background-color: #2a5577; 
+				font: 12px verdana, arial, helvetica, sans-serif;
+				font-weight: bold;
+				color:#FFFFFF;
+				border:1px solid #8f8f8f;
+			}
+		input { 
+				background-color: #2a5577; 
+				font: 12px verdana, arial, helvetica, sans-serif;
+				font-weight: bold;
+				color:#FFFFFF;
+				border:1px solid #8f8f8f;
+			}			
+		</style>
+			<!--- fim: ESTILO DOS BOTÕES --->
+
+    
+			<strong>« Para finalizar sua solicitação de guia via Internet »</strong>&nbsp;
+			
+			<!--<input type="submit" name="btnSubmeter2" value="REFAZER" formaction="http://smfw2k12wd01.smf.rio.rj.gov.br//cgi-bin/Itbi2Simulacao_CGI.exe/EntSimulacao">-->
+
+			<button type="submit" id="btnSubmeter2" onclick="retornar()">REFAZER</button>
+
+			<button type="submit" id="btnSubmeter1" onclick="submeter()">CONFIRMAR</button>
+
+			<script>
+			function retornar(){				
+				window.location.replace('http://smfonlineitbi.rio.rj.gov.br/cgi-bin/itbi2simulacao_cgi.exe/EntSimulacao')
+			}	
+				
+			function submeter(){
+				
+			  var f = document.createElement("form");
+				f.setAttribute('method',"post");
+				//f.setAttribute('hidden',"true");
+				f.setAttribute('name',"myform");
+				f.setAttribute('action',"http://smfonlineitbi.rio.rj.gov.br/cgi-bin/itbi2simulacao_cgi.exe/GeraProtocolo");
+				f.setAttribute('autocomplete',"off");
+				
+				var icaptcha = document.createElement("input"); 
+				icaptcha.setAttribute('type',"hidden");icaptcha.setAttribute('name',"f_edtCaptchaGProt");icaptcha.setAttribute('id',"f_edtCaptchaGProt");icaptcha.setAttribute('value', frmPreGeracao.edtCaptchaGProt.value);					
+
+				var i1 = document.createElement("input"); 
+				i1.setAttribute('type',"hidden");i1.setAttribute('name',"hContSeqPag");i1.setAttribute('id',"hContSeqPag");i1.setAttribute('value', "Ok");
+
+				var i2 = document.createElement("input"); 
+				i2.setAttribute('type',"hidden");i2.setAttribute('name',"NID");i2.setAttribute('id',"NID");i2.setAttribute('value', "102826");
+
+				var i3 = document.createElement("input"); 
+				i3.setAttribute('type',"hidden");i3.setAttribute('name',"IDMP");i3.setAttribute('id',"IDMP");i3.setAttribute('value', "-1");
+
+				var i4 = document.createElement("input"); 
+				i4.setAttribute('type',"hidden");i4.setAttribute('name',"PROTOCOLO");i4.setAttribute('id',"PROTOCOLO");i4.setAttribute('value', "");
+
+				var i5 = document.createElement("input"); 
+				i5.setAttribute('type',"hidden");i5.setAttribute('name',"INSCRICAO");i5.setAttribute('id',"INSCRICAO");i5.setAttribute('value', "3298019-5");
+
+				var i6 = document.createElement("input"); 
+				i6.setAttribute('type',"hidden");i6.setAttribute('name',"ADQUIRENTE");i6.setAttribute('id',"ADQUIRENTE");i6.setAttribute('value', "");
+
+				var i7 = document.createElement("input"); 
+				i7.setAttribute('type',"hidden");i7.setAttribute('name',"PERCTRANS");i7.setAttribute('id',"PERCTRANS");i7.setAttribute('value', "100%");
+
+				var i8 = document.createElement("input"); 
+				i8.setAttribute('type',"hidden");i8.setAttribute('name',"ITBI");i8.setAttribute('id',"ITBI");i8.setAttribute('value', "BAB09B8EF463B8B3D2");
+
+				var i9 = document.createElement("input"); 
+				i9.setAttribute('type',"hidden");i9.setAttribute('name',"VENCIMENTO");i9.setAttribute('id',"VENCIMENTO");i9.setAttribute('value', "15/10/2020");
+
+				var i10 = document.createElement("input"); 
+				i10.setAttribute('type',"hidden");i10.setAttribute('name',"ENDIMOVEL");i10.setAttribute('id',"ENDIMOVEL");i10.setAttribute('value', "AVN DAS AMERICAS, 17150 / BLC 001 SAL 0337 - RECREIO DOS BANDEIRANTES");
+
+				var i11 = document.createElement("input"); 
+				i11.setAttribute('type',"hidden");i11.setAttribute('name',"NUMENDADQ");i11.setAttribute('id',"NUMENDADQ");i11.setAttribute('value', "21");
+
+				var i12 = document.createElement("input"); 
+				i12.setAttribute('type',"hidden");i12.setAttribute('name',"DATAHORA");i12.setAttribute('id',"PERCTRANS");i12.setAttribute('value', "15/09/2020 18:34:08");
+
+				var i13 = document.createElement("input"); 
+				i13.setAttribute('type',"hidden");i13.setAttribute('name',"VALDECLARADO");i13.setAttribute('id',"VALDECLARADO");i13.setAttribute('value', "120.000,00");
+
+				var i14 = document.createElement("input"); 
+				i14.setAttribute('type',"hidden");i14.setAttribute('name',"NATUREZA");i14.setAttribute('id',"NATUREZA");i14.setAttribute('value', "COMPRA E VENDA");
+
+				var i15 = document.createElement("input"); 
+				i15.setAttribute('type',"hidden");i15.setAttribute('name',"NATUREZAID");i15.setAttribute('id',"NATUREZAID");i15.setAttribute('value', "01");
+
+				var i16 = document.createElement("input"); 
+				i16.setAttribute('type',"hidden");i16.setAttribute('name',"CESP");i16.setAttribute('id',"CESP");i16.setAttribute('value', "-1");
+
+				var i17 = document.createElement("input"); 
+				i17.setAttribute('type',"hidden");i17.setAttribute('name',"IDFATOR");i17.setAttribute('id',"IDFATOR");i17.setAttribute('value', "26556");
+
+				var i18 = document.createElement("input"); 
+				i18.setAttribute('type',"hidden");i18.setAttribute('name',"ELEVADOR");i18.setAttribute('id',"ELEVADOR");i18.setAttribute('value', "N");
+
+				var i19 = document.createElement("input"); 
+				i19.setAttribute('type',"hidden");i19.setAttribute('name',"QUARTOS");i19.setAttribute('id',"QUARTOS");i19.setAttribute('value', "2");
+
+				var i20 = document.createElement("input"); 
+				i20.setAttribute('type',"hidden");i20.setAttribute('name',"VAGAESCRITURA");i20.setAttribute('id',"VAGAESCRITURA");i20.setAttribute('value', "0");
+
+				var i21 = document.createElement("input"); 
+				i21.setAttribute('type',"hidden");i21.setAttribute('name',"BANHEIRO");i21.setAttribute('id',"BANHEIRO");i21.setAttribute('value', "1");
+
+				var i22 = document.createElement("input"); 
+				i22.setAttribute('type',"hidden");i22.setAttribute('name',"QTEMPREGADA");i22.setAttribute('id',"QTEMPREGADA");i22.setAttribute('value', "N");
+
+				var i23 = document.createElement("input"); 
+				i23.setAttribute('type',"hidden");i23.setAttribute('name',"BEMPREGADA");i23.setAttribute('id',"BEMPREGADA");i23.setAttribute('value', "N");
+
+				var i24 = document.createElement("input"); 
+				i24.setAttribute('type',"hidden");i24.setAttribute('name',"VARANDAS");i24.setAttribute('id',"VARANDAS");i24.setAttribute('value', "N");
+				 
+				var i25 = document.createElement("input"); 
+				i25.setAttribute('type',"hidden");i25.setAttribute('name',"PLAYGROUNDS");i25.setAttribute('id',"PLAYGROUNDS");i25.setAttribute('value', "N");
+				 
+				var i26 = document.createElement("input");  
+				i26.setAttribute('type',"hidden");i26.setAttribute('name',"IMOVELFOREIRO");i26.setAttribute('id',"IMOVELFOREIRO");i26.setAttribute('value', "N");
+				 
+				var i27 = document.createElement("input");   
+				i27.setAttribute('type',"hidden");i27.setAttribute('name',"POSICAOPAVIMENTO");i27.setAttribute('id',"POSICAOPAVIMENTO");i27.setAttribute('value', "Terreo");
+				 
+				var i28 = document.createElement("input");    
+				i28.setAttribute('type',"hidden");i28.setAttribute('name',"BCESPECIAL");i28.setAttribute('id',"BCESPECIAL");i28.setAttribute('value', "96.296,3470");
+				 
+				var i29 = document.createElement("input");     
+				i29.setAttribute('type',"hidden");i29.setAttribute('name',"BCORIGEM");i29.setAttribute('id',"BCORIGEM");i29.setAttribute('value', "96.296,3470");
+				 
+				var i30 = document.createElement("input");      
+				i30.setAttribute('type',"hidden");i30.setAttribute('name',"BCRESOLUCAO");i30.setAttribute('id',"BCRESOLUCAO");i30.setAttribute('value', "96296,347");
+
+				var i31 = document.createElement("input");      
+				i31.setAttribute('type',"hidden");i31.setAttribute('name',"BC");i31.setAttribute('id',"BC");i31.setAttribute('value', "342364");
+
+				var i32 = document.createElement("input");       
+				i32.setAttribute('type',"hidden");i32.setAttribute('name',"VINDICE");i32.setAttribute('id',"VINDICE");i32.setAttribute('value', "3,5553165872160");
+
+				var i33 = document.createElement("input");
+				i33.setAttribute('type',"hidden");i33.setAttribute('name',"IORIGEM");i33.setAttribute('id',"IORIGEM");i33.setAttribute('value', "2.888,89");
+
+				var i34 = document.createElement("input");
+				i34.setAttribute('type',"hidden");i34.setAttribute('name',"NRESOLUCAO");i34.setAttribute('id',"NRESOLUCAO");i34.setAttribute('value', "002146");
+
+				var i35 = document.createElement("input");
+				i35.setAttribute('type',"hidden");i35.setAttribute('name',"FRENTE");i35.setAttribute('id',"FRENTE");i35.setAttribute('value', "1");
+
+				var i36 = document.createElement("input");
+				i36.setAttribute('type',"hidden");i36.setAttribute('name',"FATORC");i36.setAttribute('id',"FATORC");i36.setAttribute('value', "1,0000");
+
+				var i37 = document.createElement("input");
+				i37.setAttribute('type',"hidden");i37.setAttribute('name',"FATORR");i37.setAttribute('id',"FATORR");i37.setAttribute('value', "1,0000");
+
+				var i38 = document.createElement("input");
+				i38.setAttribute('type',"hidden");i38.setAttribute('name',"FATORI");i38.setAttribute('id',"FATORI");i38.setAttribute('value', "1,00");
+
+				var i39 = document.createElement("input");
+				i39.setAttribute('type',"hidden");i39.setAttribute('name',"FATORIDADE");i39.setAttribute('id',"FATORIDADE");i39.setAttribute('value', "1");
+
+				var i40 = document.createElement("input");
+				i40.setAttribute('type',"hidden");i40.setAttribute('name',"FATORT");i40.setAttribute('id',"FATORT");i40.setAttribute('value', "1");
+				 
+				var i41 = document.createElement("input"); 
+				i41.setAttribute('type',"hidden");i41.setAttribute('name',"FRACAO");i41.setAttribute('id',"FRACAO");i41.setAttribute('value', "1");
+
+				var i42 = document.createElement("input"); 
+				i42.setAttribute('type',"hidden");i42.setAttribute('name',"VR");i42.setAttribute('id',"VR");i42.setAttribute('value', "2188,55334");
+				 
+				var i43 = document.createElement("input");  
+				i43.setAttribute('type',"hidden");i43.setAttribute('name',"VC");i43.setAttribute('id',"VC");i43.setAttribute('value', "2188,55334");
+
+				var i44 = document.createElement("input");  
+				i44.setAttribute('type',"hidden");i44.setAttribute('name',"V0");i44.setAttribute('id',"V0");i44.setAttribute('value', "41768,43225");
+
+				var i45 = document.createElement("input");  
+				i45.setAttribute('type',"hidden");i45.setAttribute('name',"NUMDOCADQ");i45.setAttribute('id',"NUMDOCADQ");i45.setAttribute('value', "40423790013");
+
+				var i46 = document.createElement("input");  
+				i46.setAttribute('type',"hidden");i46.setAttribute('name',"NUMDOCTRANS");i46.setAttribute('id',"NUMDOCTRANS");i46.setAttribute('value', "97448577069");
+
+				var i47 = document.createElement("input");  
+				i47.setAttribute('type',"hidden");i47.setAttribute('name',"NOMEADQ");i47.setAttribute('id',"NOMEADQ");i47.setAttribute('value', "ASDF ASDF");
+
+				var i48 = document.createElement("input");  
+				i48.setAttribute('type',"hidden");i48.setAttribute('name',"NOMETRANS");i48.setAttribute('id',"NOMETRANS");i48.setAttribute('value', "ASDFASD ASDFASDF");
+
+				var i49 = document.createElement("input");  
+				i49.setAttribute('type',"hidden");i49.setAttribute('name',"NOMEADQWS");i49.setAttribute('id',"NOMEADQWS");i49.setAttribute('value', "");
+
+				var i50 = document.createElement("input");  
+				i50.setAttribute('type',"hidden");i50.setAttribute('name',"NOMECEDWS");i50.setAttribute('id',"NOMECEDWS");i50.setAttribute('value', "");
+
+				var i51 = document.createElement("input");  
+				i51.setAttribute('type',"hidden");i51.setAttribute('name',"TIPOADQ");i51.setAttribute('id',"TIPOADQ");i51.setAttribute('value', "-1");
+
+				var i52 = document.createElement("input");  
+				i52.setAttribute('type',"hidden");i52.setAttribute('name',"TIPOTRANS");i52.setAttribute('id',"TIPOTRANS");i52.setAttribute('value', "-1");
+
+				var i53 = document.createElement("input");  
+				i53.setAttribute('type',"hidden");i53.setAttribute('name',"UTILID");i53.setAttribute('id',"UTILID");i53.setAttribute('value', "2");
+
+				var i54 = document.createElement("input");  
+				i54.setAttribute('type',"hidden");i54.setAttribute('name',"VFITBI");i54.setAttribute('id',"VFITBI");i54.setAttribute('value', "");
+
+				var i55 = document.createElement("input");  
+				i55.setAttribute('type',"hidden");i55.setAttribute('name',"PAL");i55.setAttribute('id',"PAL");i55.setAttribute('value', "0");	
+				
+				var i56 = document.createElement("input");  
+				i56.setAttribute('type',"hidden");i56.setAttribute('name',"ENDADQ");i56.setAttribute('id',"ENDADQ");i56.setAttribute('value', "ASD ASDF");	
+				
+				var i57 = document.createElement("input");  
+				i57.setAttribute('type',"hidden");i57.setAttribute('name',"NUMADQ");i57.setAttribute('id',"NUMADQ");i57.setAttribute('value', "21");	
+
+				var i58 = document.createElement("input");  
+				i58.setAttribute('type',"hidden");i58.setAttribute('name',"COMPENDADQ");i58.setAttribute('id',"COMPENDADQ");i58.setAttribute('value', "");	
+
+				var i59 = document.createElement("input");  
+				i59.setAttribute('type',"hidden");i59.setAttribute('name',"BAIRROADQ");i59.setAttribute('id',"BAIRROADQ");i59.setAttribute('value', "ASDF");	
+
+				var i60 = document.createElement("input");  
+				i60.setAttribute('type',"hidden");i60.setAttribute('name',"CIDADEADQ");i60.setAttribute('id',"CIDADEADQ");i60.setAttribute('value', "ASDF");	
+				                                                                                                                   
+				var i61 = document.createElement("input");  
+				i61.setAttribute('type',"hidden");i61.setAttribute('name',"UFADQ");i61.setAttribute('id',"UFADQ");i61.setAttribute('value', "RJ");	
+                             
+				var i62 = document.createElement("input");  
+				i62.setAttribute('type',"hidden");i62.setAttribute('name',"CEPADQ");i62.setAttribute('id',"CEPADQ");i62.setAttribute('value', "64039040");	
+
+				var i63 = document.createElement("input");  
+				i63.setAttribute('type',"hidden");i63.setAttribute('name',"DDDADQ");i63.setAttribute('id',"DDDADQ");i63.setAttribute('value', "86");	
+
+				var i64 = document.createElement("input");  
+				i64.setAttribute('type',"hidden");i64.setAttribute('name',"TELEFONEADQ");i64.setAttribute('id',"TELEFONEADQ");i64.setAttribute('value', "22445588");	
+				
+				var i65 = document.createElement("input");  
+				i65.setAttribute('type',"hidden");i65.setAttribute('name',"EMAILADQ");i65.setAttribute('id',"EMAILADQ");i65.setAttribute('value', "asdf@asdf.com.br");	          
+				
+				var i66 = document.createElement("input");  				
+				i66.setAttribute('type',"hidden");i66.setAttribute('name',"LAUDOIND");i66.setAttribute('id',"LAUDOIND");i66.setAttribute('value', "F");	          				 	
+				                                                                                                                   
+				var i67 = document.createElement("input");  				
+				i67.setAttribute('type',"hidden");i67.setAttribute('name',"HCAPTCHA");i67.setAttribute('id',"HCAPTCHA");i67.setAttribute('value', "D31918C913");	 
+				
+				var i68 = document.createElement("input");  				
+				i68.setAttribute('type',"hidden");i68.setAttribute('name',"UTILIZACAO");i68.setAttribute('id',"UTILIZACAO");i68.setAttribute('value', "");	 
+
+				var i69 = document.createElement("input");  				
+				i69.setAttribute('type',"hidden");i69.setAttribute('name',"INSCRICAOMP");i69.setAttribute('id',"INSCRICAOMP");i69.setAttribute('value', "");	 
+				
+				var i70 = document.createElement("input");  				
+				i70.setAttribute('type',"hidden");i70.setAttribute('name',"NOME_EMP");i70.setAttribute('id',"NOME_EMP");i70.setAttribute('value', "");	 
+
+				var i71 = document.createElement("input");  				
+				i71.setAttribute('type',"hidden");i71.setAttribute('name',"TRECHO");i71.setAttribute('id',"TRECHO");i71.setAttribute('value', "");	 
+
+				var i72 = document.createElement("input");  				
+				i72.setAttribute('type',"hidden");i72.setAttribute('name',"OBS");i72.setAttribute('id',"OBS");i72.setAttribute('value', "");	 
+
+				var i73 = document.createElement("input");  				
+				i73.setAttribute('type',"hidden");i73.setAttribute('name',"VAL_DECLARADO");i73.setAttribute('id',"VAL_DECLARADO");i73.setAttribute('value', "");	 
+
+				var i74 = document.createElement("input");  				
+				i74.setAttribute('type',"hidden");i74.setAttribute('name',"NATUREZA");i74.setAttribute('id',"NATUREZA");i74.setAttribute('value', "COMPRA E VENDA");	 
+
+				var i75 = document.createElement("input");  				
+				i75.setAttribute('type',"hidden");i75.setAttribute('name',"NATUREZAID");i75.setAttribute('id',"NATUREZAID");i75.setAttribute('value', "01");	 
+
+				var i76 = document.createElement("input");  				
+				i76.setAttribute('type',"hidden");i76.setAttribute('name',"PAL");i76.setAttribute('id',"PAL");i76.setAttribute('value', "0");	 
+            
+				var i77 = document.createElement("input");  				
+				i77.setAttribute('type',"hidden");i77.setAttribute('name',"ENDIMOVELFMT");i77.setAttribute('id',"ENDIMOVELFMT");i77.setAttribute('value', "");	 
+            
+				var i78 = document.createElement("input");  				
+				i78.setAttribute('type',"hidden");i78.setAttribute('name',"FATORIDADE");i78.setAttribute('id',"FATORIDADE");i78.setAttribute('value', "1");	 
+
+				var i79 = document.createElement("input");  				
+				i79.setAttribute('type',"hidden");i79.setAttribute('name',"FATORT");i79.setAttribute('id',"FATORT");i79.setAttribute('value', "1");	 
+            
+				var i80 = document.createElement("input");  				
+				i80.setAttribute('type',"hidden");i80.setAttribute('name',"FRACAO");i80.setAttribute('id',"FRACAO");i80.setAttribute('value', "1");	 
+
+				var i81 = document.createElement("input");  				
+				i81.setAttribute('type',"hidden");i81.setAttribute('name',"UTILID");i81.setAttribute('id',"UTILID");i81.setAttribute('value', "2");	 
+            
+				var i82 = document.createElement("input");  				
+				i82.setAttribute('type',"hidden");i82.setAttribute('name',"INSCRICAO");i82.setAttribute('id',"INSCRICAO");i82.setAttribute('value', "3298019-5");	 
+            
+				var i83 = document.createElement("input");  				
+				i83.setAttribute('type',"hidden");i83.setAttribute('name',"PERC_TRANS");i83.setAttribute('id',"PERC_TRANS");i83.setAttribute('value', "");	 
+            
+
+				var i85 = document.createElement("input");  				
+				i85.setAttribute('type',"hidden");i85.setAttribute('name',"VENCIMENTO");i85.setAttribute('id',"VENCIMENTO");i85.setAttribute('value', "15/10/2020");	 
+            
+				var i86 = document.createElement("input");  				
+				i86.setAttribute('type',"hidden");i86.setAttribute('name',"CESP");i86.setAttribute('id',"CESP");i86.setAttribute('value', "-1");	 
+            
+				var i87 = document.createElement("input");  				
+				i87.setAttribute('type',"hidden");i87.setAttribute('name',"IDFATOR");i87.setAttribute('id',"IDFATOR");i87.setAttribute('value', "26556");	 
+            
+				var i88 = document.createElement("input");  				
+				i88.setAttribute('type',"hidden");i88.setAttribute('name',"BASE_CALC");i88.setAttribute('id',"BASE_CALC");i88.setAttribute('value', "");	 
+				                                          
+				var i89 = document.createElement("input");  				
+				i89.setAttribute('type',"hidden");i89.setAttribute('name',"NOMECAMPOADQ");i89.setAttribute('id',"NOMECAMPOADQ");i89.setAttribute('value', "");	 
+				                                          
+				var i90 = document.createElement("input");  				
+				i90.setAttribute('type',"hidden");i90.setAttribute('name',"NOMECAMPOCED");i90.setAttribute('id',"NOMECAMPOCED");i90.setAttribute('value', "");	 
+            
+
+
+				f.appendChild(i1);
+				f.appendChild(i2);
+				f.appendChild(i3);
+				f.appendChild(i4);
+				f.appendChild(i5);
+				f.appendChild(i6);
+				f.appendChild(i7);
+				f.appendChild(i8);
+				f.appendChild(i9);
+				f.appendChild(i10);
+				f.appendChild(i11);
+				f.appendChild(i12);
+				f.appendChild(i13);
+				f.appendChild(i14);
+				f.appendChild(i15);
+				f.appendChild(i16);
+				f.appendChild(i17);
+				f.appendChild(i18);
+				f.appendChild(i19);
+				f.appendChild(i20);
+				f.appendChild(i21);
+				f.appendChild(i22);
+				f.appendChild(i23);
+				f.appendChild(i24);
+				f.appendChild(i25);
+				f.appendChild(i26);
+				f.appendChild(i27);
+				f.appendChild(i28);
+				f.appendChild(i29);
+				f.appendChild(i30);
+				f.appendChild(i31);
+				f.appendChild(i32);
+				f.appendChild(i33);
+				f.appendChild(i34);
+				f.appendChild(i35);
+				f.appendChild(i36);
+				f.appendChild(i37);
+				f.appendChild(i38);
+				f.appendChild(i39);
+				f.appendChild(i40);
+				f.appendChild(i41);
+				f.appendChild(i42);
+				f.appendChild(i43);
+				f.appendChild(i44);
+				f.appendChild(i45);
+				f.appendChild(i46);
+				f.appendChild(i47);
+				f.appendChild(i48);
+				f.appendChild(i49);
+				f.appendChild(i50);
+				f.appendChild(i51);
+				f.appendChild(i52);
+				f.appendChild(i53);
+				f.appendChild(i54);
+				f.appendChild(i55);
+				f.appendChild(i56);
+				f.appendChild(i57);
+				f.appendChild(i58);
+				f.appendChild(i59);
+				f.appendChild(i60);
+				f.appendChild(i61);
+				f.appendChild(i62);
+				f.appendChild(i63);
+				f.appendChild(i64);
+				f.appendChild(i65);
+				f.appendChild(i66);
+				f.appendChild(i67);
+				f.appendChild(i68);
+				f.appendChild(i69);
+				f.appendChild(i70);
+				f.appendChild(i71);
+				f.appendChild(i72);
+				f.appendChild(i73);
+				f.appendChild(i74);
+				f.appendChild(i75);						
+				f.appendChild(i76);
+				f.appendChild(i77);
+				f.appendChild(i78);
+				f.appendChild(i79);
+				f.appendChild(i80);
+				f.appendChild(i81);
+				f.appendChild(i82);
+				f.appendChild(i83);
+				f.appendChild(i85);
+				f.appendChild(i86);
+				f.appendChild(i87);
+				f.appendChild(i88);				
+				f.appendChild(i89);
+				f.appendChild(i90);				
+				f.appendChild(icaptcha);	
+
+				document.body.appendChild(f);
+				f.submit();
+				
+			}					
+								
+			function disable(i){
+			 document.getElementById("btnSubmeter"+i).setAttribute("disabled","disabled");
+			}
+			</script>
+		<!--- </form> --->
+    </td>
+    </tr>		
+ </tbody></table>

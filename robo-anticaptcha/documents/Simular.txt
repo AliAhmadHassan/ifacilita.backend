@@ -1,0 +1,53 @@
+<table border="0" align="center">
+          <tbody><tr>
+              <th class="THEsquerda" width="27%"> Inscrição do Imóvel (IPTU): </th>
+              <td>32980195</td>
+          </tr>
+          <tr>
+              <th class="THEsquerda"> Valor Declarado: </th>
+              <td>120.000,00</td>
+          </tr>
+          <tr>
+              <th class="THEsquerda"> Natureza da Transação: </th>
+              <td>COMPRA E VENDA</td>
+          </tr>
+          <tr>
+              <th class="THEsquerda">PAL: </th>
+              <td>0</td>
+          </tr>   
+          <tr>
+              <th class="THEsquerda">% transferido: </th>
+              <td>100%</td>
+          </tr>                     
+          <tr>
+              <th class="THEsquerda"> Base de Cálculo: </th>
+              <td>342.364,00</td>
+          </tr>
+          <tr>
+              <th class="THEsquerda"> Imposto: </th>
+              <td>10.270,92</td>
+          </tr>
+          <tr>
+              <th class="THEsquerda"> Utilização: </th>
+              <td>NAO RESIDENCIAL</td>
+          </tr>
+          <tr>
+              <th class="THEsquerda"> Endereço do Imóvel: </th>
+              <td>AVN DAS AMERICAS, 17150 / BLC 001 SAL 0337 - RECREIO DOS BANDEIRANTES</td>
+          </tr>
+          <tr>
+              <th class="THEsquerda"> Vencimento: </th>
+              <td>15/10/2020</td>
+          </tr>
+          <tr>
+              <td colspan="2"><hr>
+              </td>
+          </tr>
+          <tr>
+              <td align="right" colspan="2" class="TDDireita">
+                <input type="submit" name="btnSubmeter" value="Solicitar Guia">
+              </td>
+          </tr>
+      </tbody></table>
+
+      <input type="submit" name="btnSubmeter" value="Solicitar Guia">

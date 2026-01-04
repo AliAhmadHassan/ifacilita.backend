@@ -1,0 +1,2 @@
+scrnli: v3.3.2
+anticaptcha: v0.56

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Com.ByteAnalysis.IFacilita.LigthOwnership.Model\Com.ByteAnalysis.IFacilita.LigthOwnership.Model.csproj" />
+    <ProjectReference Include="..\Com.ByteAnalysis.IFacilita.LigthOwnership.Repository\Com.ByteAnalysis.IFacilita.LigthOwnership.Repository.csproj" />
+  </ItemGroup>
+
+
+</Project>

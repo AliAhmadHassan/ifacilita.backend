@@ -1,0 +1,76 @@
+INSTRUMENTO PARTICULAR DE COMPRA E VENDA
+
+
+Pelo presente “Instrumento Particular de COMPRA E VENDA”, as PARTES: 
+
+Vendedor: <<VENDEDOR_NOME>>, <<VENDEDOR_NACIONALIDADE>>, <<VENDEDOR_PROFISSAO>>, <<VENDEDOR_ESTADO_CIVIL>>, <<VENDEDOR_REGIME>> , com <<VENDEDOR_NOME_CONJUGE>>, portador da <<VENDEDOR_IDENTIDADE>> expedida pelo <<VENDEDOR_EXPEDISSAO>> em <<VENDEDOR_DATA_EXPEDISSAO>>, inscrito no CPF/MF sob o nº <<VENDEDOR_CPF>>, com <<VENDEDOR_ENDERECO>>, aqui denominada simplesmente de PROMISSÁRIO VENDEDOR 
+
+Comprador: <<COPRADOR_NOME>>, <<COPRADOR_NACIONALIDADE>>, <<COPRADOR_PROFISSAO>>, <<COPRADOR_ESTADO_CIVIL>>, <<COPRADOR_REGIME>> , com <<COPRADOR_NOME_CONJUGE>>, portador da <<COPRADOR_IDENTIDADE>> expedida pelo <<COPRADOR_EXPEDISSAO>> em <<COPRADOR_DATA_EXPEDISSAO>>, inscrito no CPF/MF sob o nº <<COPRADOR_CPF>>, com <<COPRADOR_ENDERECO>>, denominado simplesmente PROMITENTE COMPRADOR, 
+
+
+
+Têm entre si justo e contratado o seguinte: 
+
+I – DO IMÓVEL 
+
+1.1 O PROMITENTE VENDEDOR é proprietário de 100% do imóvel situada na <<IMOVEL_ENDERECO>>, devidamente registrado e caracterizado na matrícula nº <<IMOVEL_MATRICULA>> do <<IMOVEL_RGI>> RGI da Capital do Rio de Janeiro. designado simplesmente como IMÓVEL. 
+1.2 O PROMITENTE VENDEDOR declara que, o imóvel está livre e desembaraçado de todo e qualquer ônus ou gravame, real ou pessoal, judicial ou extrajudicial, hipoteca legal ou convencional, arresto ou sequestro, foro ou pensão, bem como inteiramente quite de encargos, taxas, impostos e obrigações, de qualquer natureza, inclusive taxas condominiais, devidos até a presente data, cujas certidões deverão ser apresentadas na data lavratura da escritura de Compra e Venda do IMÓVEL.
+1.3 Declaram ainda o PROMITENTE VENDEDOR, solenemente, para todos os efeitos de direito civil e penal que: a) não são e nunca foram contribuintes obrigatórios da Previdência Social, na qualidade legal de empresa; e b) inexiste a seu encargo responsabilidade oriunda de tutela, curatela ou testamentária, e que não responde pessoalmente a ações reais, pessoais, reipersecutórias, possessórias, reivindicatórias, arrestos, embargos, depósitos, sequestros, protestos, falências, concordatas e/ou concursos de credores, dívidas fiscais, penhoras ou execuções devidos até a presente data que possa comprometer o imóvel objeto da presente transação; 
+
+II - DA COMPRA E VENDA 
+
+2.1 Por este instrumento e na melhor forma de direito, as PARTES têm entre si justa e contratada a compra e venda do IMÓVEL nas condições a seguir: 
+
+2.2 O preço total do imóvel é de R$ <<TRANSACAO_VALOR>> (<<TRANSACAO_VALOR_EXTENSO>>), que serão pagos <<TRANSACAO_FORMA_PAGAMENTO>>. 
+
+III das Certidões.
+
+3.1 A Promitente vendedor deverá apresentar as seguintes certidões.
+
+Do Rio de Janeiro:
+
+a) Certidões Negativas expedidas pelo 1º,2º,3º e 4º Ofício de Distribuição; 
+b) Certidões Negativas expedidas pelo 1º e 2º Ofícios de Interdições e Tutelas; 
+c) Certidão de distribuição e registro da Justiça Federal e CNDT; 
+d) Certidão de situação fiscal e enfitêutica do IMÓVEL; 
+e) Certidão de ônus reais do IMÓVEL com a propriedade em nome da Promitente Vendedora; 
+f) Certidão Negativa da Prefeitura do Rio de Janeiro, relativa ao IMÓVEL; 
+g) Certidão Negativa de Taxa de Incêndio, relativa ao IMÓVEL; 
+h) Declaração de quitação do condomínio. 
+
+3.2 A posse do imóvel, é transferida no presente momento, com a consequente entrega das chaves.
+
+3.3 A PROMITENTE VENDEDOR se obriga, por si, seus herdeiros e sucessores a qualquer título, a fazer esta promessa de compra e venda sempre boa, firme e valiosa, pondo o PROMISSÁRIO COMPRADOR a salvo de quaisquer dúvidas ou contestações futuras. 
+
+3.4 A PROMITENTE VENDEDOR é responsáveis por todos os encargos, impostos, taxas e despesas e débitos que recaiam ou venham a recair sobre o IMÓVEL até a presente data.
+
+3.5 Correrão por conta exclusiva do PROMISSÁRIO COMPRADOR as despesas com Lavratura de Escrituras, registro no Registro Geral de Imóveis, bem como as despesas relativas ao Imposto de Transmissão. 
+
+3.6 O presente instrumento possui caráter irrevogável e irretratável, obrigando as PARTES, seus herdeiros e sucessores, a qualquer título, não comportando arrependimento de qualquer das PARTES, caso o PROMISSÁRIO COMPRADOR desista perderá o sinal e na hipótese da PROMITENTE VENDEDORA desistir da venda deverá devolver em dobro o sinal recebido. “Arras Confirmatórias”, nos termos do artigo 420 do Código Civil Brasileiro. 
+
+3.7 Elegem as partes o foro desta Capital do Estado do Rio de Janeiro, para dirimir as controvérsias oriundas do cumprimento do presente contrato, excluído qualquer outro por mais privilegiado que seja, que as partes tenham ou venham a ter. 
+
+E por estarem justos e contratados, assinam o presente em três vias de igual forma e teor, depois de lido e achado conforme, juntamente com as testemunhas abaixo assinadas. 
+
+Rio de Janeiro, 09 de outubro de 2018.
+
+
+
+_________________________________________________
+PROMITENTE VENDEDOR
+<<VENDEDOR_NOME>>
+
+
+_________________________________________________
+<<COMPRADOR_NOME>>
+PROMISSÁRIO COMPRADOR
+
+
+Testemunhas:1. _____________________________ 
+Nome: 
+
+CPF: 
+RG: 2. _____________________________ 
+Nome: 
+CPF: 
+RG: 

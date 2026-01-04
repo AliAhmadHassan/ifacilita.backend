@@ -1,0 +1,16 @@
+<table border="0" width="100%" cellpadding="8">
+			    	<tbody><tr class="TRMedio">
+					  	<td class="TDEsquerda" valign="top">	
+							<p><strong>ATENÇÃO CONTRIBUINTE</strong></p>
+							<ul>
+							<li><p>Todas as informações já digitadas, tais como imóvel, valor da transação, natureza e percentual transferido, assim como todas as informações que serão digitadas a partir de agora constarão de sua guia de pagamento do imposto e serão de sua inteira responsabilidade.</p></li>
+							<li><p>Qualquer incorreção nos dados acarretará a não aceitação de sua guia por parte do cartório ou Registro de Imóveis.</p></li>
+							<li><p>Solicitamos a sua atenção durante o preenchimento pois, caso seja necessário emitir folha suplementar para correção de dados em guia paga com erro, o procedimento de emissão demandará um prazo de 10(dez) dias úteis a partir da entrega do pedido ao setor de atendimento do ITBI.</p></li>
+							<li><p>Não será emitida folha suplementar para troca de adquirente ou de inscrição imobiliária de imóvel.</p></li>
+							</ul>
+						</td>
+					</tr>
+			    </tbody></table>
+
+                <input type="submit" name="btnSubmeter" value="CLIQUE AQUI">
+                <input type="hidden" name="hContSeqPag" value="Ok">
