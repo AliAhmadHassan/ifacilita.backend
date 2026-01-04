@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Com.ByteAnalysis.IFacilita.TransfIptuSp.Model\Com.ByteAnalysis.IFacilita.TransfIptuSp.Model.csproj" />
+    <ProjectReference Include="..\Com.ByteAnalysis.IFacilita.TransfIptuSp.Repository\Com.ByteAnalysis.IFacilita.TransfIptuSp.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

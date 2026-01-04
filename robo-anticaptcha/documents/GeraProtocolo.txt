@@ -1,0 +1,147 @@
+<table width="100%" border="0">
+          <tbody><tr>
+            <td width="1%">&nbsp;</td>
+            <td width="98%">
+
+        <!-- Cabeçalho: fim -->
+        
+
+
+<h1>ITBI - Solicitação de Guia</h1>
+
+
+
+<div id="Confirmacao" align="center">
+     
+ <br> 
+ <!--
+ <table border='1' align='center' cellpadding='8'>
+      <tr class='TRMedio'>
+          <td class='TDCentro' valign='top'>
+            <b>Foi gerado o protocolo <font color='Red'>2486881</font>. Aguarde de 1 a 2 dias úteis para a liberação da guia para impressão, o que poderá ser feito até a data do vencimento.
+            <br><br>
+            <font color='Red'>Atenção!</font> Em casos especiais, o prazo pode ser maior.</b>
+            <br><br>
+            <!--Inicio Oficio 110/2004 e Oficio 168/2004-->
+            <!--
+            <b><center>O VALOR PODERÁ SER REVISTO A CRITÉRIO DA AUTORIDADE FISCAL.</center>
+            <!--Fim Oficio 110/2004 e Fim Oficio 168/2004-->
+            <!--
+          </td>
+      </tr>
+ </table>
+ -->
+ 
+ <table border="1" align="center" cellpadding="8">
+      <tbody><tr class="TRMedio">
+          <td class="TDCentro" valign="top">
+            <b>Foi gerado o protocolo <font color="Red">2486881</font>.</b>
+            <br>(Os dados dessa tela serão necessários para acompanhamento e impressão da guia)
+            <br><br>
+            <b>A liberação da guia para impressão ocorrerá em 2(dois) dias úteis</b>
+            <br>
+            Atenção! Quando o imóvel requerer análise individual ou em outros casos especiais, o prazo será maior.
+            <br><br>
+            <b>A guia ficará disponível para impressão e pagamento até a data do vencimento.</b>
+            <br><br>
+            <!--Inicio Oficio 110/2004 e Oficio 168/2004-->
+            <b><center>O VALOR PODERÁ SER REVISTO A CRITÉRIO DA AUTORIDADE FISCAL.</center></b>
+            <!--Fim Oficio 110/2004 e Fim Oficio 168/2004-->
+          </td>
+      </tr>
+ </tbody></table>
+                                                                                                                                                           
+ <table border="1" align="center" cellpadding="5">                                                                                                         
+     <tbody><tr class="TRMedio">                                                                                                                                  
+        <td class="TDEsquerda" valign="top">																																																								
+           <font color="#FF0000"><b><em>SOMENTE PARA PAGAMENTOS ANTECIPADOS(ANTES DA LAVRATURA DA ESCRITURA).</em></b><br></font>                          
+        </td>                                                                                                                                              
+     </tr>                                                                                                                                                 
+ </tbody></table>                                                                                                                                                  
+                                                                                                                                                           
+ <br>  
+
+ <br>
+
+
+  <table border="0" align="center">
+
+		<tbody><tr>                                                              
+		    <th class="THEsquerda"> PROTOCOLO: </th>          
+		    <td>2486881</td>  
+		</tr> 
+		<tr>                                                              
+		    <th class="THEsquerda"> Inscrição Imobiliária: </th>          
+		    <td>3298019-5</td>  
+		</tr>                                                             
+		<tr>                                                              
+		    <th class="THEsquerda"> Doc. Adquirente Digitado: </th>                
+		    <td>40423790013</td>  
+		</tr>                                                             
+		<tr>                                                              
+		    <th class="THEsquerda"> Adquirente Digitado: </th>                     
+		    <td>ASDF ASDF</td>  
+		</tr>                                                             
+		<tr>                                                  
+		    <th class="THEsquerda"> Doc. Transmitente Digitado: </th>  
+		    <td>97448577069</td>  					    
+		</tr>                                                 
+		<tr>                                                  
+		    <th class="THEsquerda"> Transmitente Digitado: </th>       
+		    <td>ASDFASD ASDFASDF</td>  					    					    
+		</tr>                                                 
+		<tr>                                                  
+		    <th class="THEsquerda"> % Transferido: </th>      
+		    <td>100%</td>  					    					    
+		</tr>                                                 
+		<tr>                                                  
+		    <th class="THEsquerda"> Valor do ITBI: </th>      
+		    <td>10.270,92</td>  					    					    	
+		</tr>                                                 
+		<tr>                                                  
+		    <th class="THEsquerda"> Prazo de Pagamento: </th> 
+		    <td>15/10/2020</td>  					    					  
+		</tr>                                                 
+		<tr>                                                  
+		    <th class="THEsquerda"> Endereço do Imóvel: </th> 
+		    <td>AVN DAS AMERICAS, 17150 / BLC 001 SAL 0337 - RECREIO DOS BANDEIRANTES</td>  					    					    
+		</tr>                                                 
+		<tr>                                                  
+		    <th class="THEsquerda"> Natureza: </th>           
+		    <td>COMPRA E VENDA</td>  					    					    
+		</tr>                                                 
+		<tr>                                                  
+		    <th class="THEsquerda"> Valor do Declarado: </th> 
+		    <td>120.000,00</td>  					    					
+		</tr> 
+    <tr>
+        <td align="center" colspan="5">&nbsp;</td>
+    </tr>
+    <tr>
+    		<td align="center" colspan="5"><hr></td>
+    </tr>
+    <tr> 
+				<td></td>
+    		<td align="center" colspan="4"><strong>Data/Hora da Consulta: 15/09/2020 18:35:56</strong></td>            	
+    </tr>   
+      
+		<input type="hidden" name="VFITBI" id="VFITBI" value="6CC680EC2C2365D53153BAF7100D0403157BF51C">	                   	
+  </tbody></table>          
+</div>
+ 
+
+
+
+
+
+
+
+        <!--Rodapé: início-->
+
+              <p class="PFonte">&nbsp;
+
+              </p>
+            </td>
+            <td width="1%">&nbsp;</td>    
+          </tr>
+        </tbody></table>

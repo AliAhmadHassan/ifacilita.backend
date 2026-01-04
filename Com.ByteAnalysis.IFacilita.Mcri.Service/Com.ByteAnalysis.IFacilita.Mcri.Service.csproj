@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+     <ProjectReference Include="..\Com.ByteAnalysis.IFacilita.Mcri.Model\Com.ByteAnalysis.IFacilita.Mcri.Model.csproj" />
+    <ProjectReference Include="..\Com.ByteAnalysis.IFacilita.Mcri.Repository\Com.ByteAnalysis.IFacilita.Mcri.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

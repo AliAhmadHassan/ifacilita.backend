@@ -1,0 +1,43 @@
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tbody><tr>
+            <th>ADQUIRENTE (COMPRADOR)</th>
+        </tr>
+        <tr>
+            <td align="center">&nbsp;</td>
+        </tr>		
+        <tr>
+            <td>
+              Documento (CPF/CNPJ): 
+              <input type="text" size="18" maxlength="14" name="edtNumDocAdq_15092020_180714" onchange="trim(document.frmPadrao.edtNumDocAdq_15092020_180714)">
+            </td>
+        </tr>
+        <tr>
+            <td align="center">&nbsp;</td>
+        </tr>
+        <tr>
+            <th>TRANSMITENTE (VENDEDOR)</th>
+        </tr>
+        <tr>
+            <td align="center">&nbsp;</td>
+        </tr>		
+        <tr>
+            <td>
+              Documento (CPF/CNPJ): 
+              <input type="text" size="18" maxlength="14" name="edtNumDocCed_15092020_180714" onchange="trim(document.frmPadrao.edtNumDocCed_15092020_180714)">
+            </td>
+        </tr>
+        <tr>
+            <td align="center" colspan="3"><hr>
+            </td>
+        </tr>		
+        <tr>
+            <td class="TDDireita">
+              <input type="reset" name="btnLimpar" value="Limpar">&nbsp;&nbsp;<input type="submit" name="btnSubmeter" value="Continuar">
+            </td>
+        </tr>
+    </tbody></table>
+
+    <td class="TDDireita">
+              <input type="reset" name="btnLimpar" value="Limpar">&nbsp;&nbsp;
+              <input type="submit" name="btnSubmeter" value="Continuar">
+            </td>
